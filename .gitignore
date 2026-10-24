@@ -1,7 +1,1 @@
-include
-lib
-bin
-.idea
-.DS_Store
-.clangd
-vendor
+build
