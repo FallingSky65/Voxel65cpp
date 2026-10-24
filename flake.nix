@@ -16,6 +16,7 @@
                     buildInputs = with pkgs; [
                         clang
                         cmake
+                        emscripten
                         
                         libx11
                         libxrandr
@@ -24,6 +25,8 @@
                         libxi
                         libGL
                         xorgproto
+
+                        python3
                    ];
                 };
             }
